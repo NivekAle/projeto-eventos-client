@@ -7,6 +7,7 @@ import LoginPage from "./pages/Login/Login";
 import { ConfigProvider } from "antd";
 import Layout from "./Layout";
 import SearchEventsPage from "./pages/SearchEvents/SearchEvents";
+import InvitesPage from "./pages/InvitesPage/InvitesPage";
 
 
 
@@ -28,6 +29,7 @@ function App() {
 					<Route path="/" element={<Layout />}>
 						<Route path="home" element={<HomePage />} />
 						<Route path="search-events" element={<SearchEventsPage />} />
+						<Route path="invites" element={<InvitesPage />} />
 					</Route>
 				</Routes>
 			</BrowserRouter>

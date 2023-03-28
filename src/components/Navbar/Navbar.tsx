@@ -25,12 +25,12 @@ const NavItem = (prop: NavItemProps) => (
 const links_for_navigation: NavItemProps[] = [
 	{
 		icon: faHome,
-		label: "Home",
+		label: "Home - Buscar Eventos",
 		to: "/home"
 	},
 	{
 		icon: faInbox,
-		label: "Buscar Eventos",
+		label: "Inbox",
 		to: "/search-events"
 	},
 	{
